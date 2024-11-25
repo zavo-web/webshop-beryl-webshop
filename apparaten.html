@@ -12,15 +12,26 @@
   <body>
     <!-- navigatie -->
     <header>
-      <a href="webshop.html">
+      <a href="index.html">
         <img class="img_logo" src="image/png_logo.png" alt="logo voor de nav" />
       </a>
       <input type="text" placeholder="Waar ben je naar op zoek?" />
       <nav class="nav">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#apparaten">Producten</a></li>
-          <li><a href="contacten.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+
+          <li class="nav-li">
+            <a href="">Producten</a>
+            <section class="full-dropdown">
+              <section class="dropdown">
+                <li><a href="apparaten.html">Apparaten</a></li>
+                <li>Iphones</li>
+                <li>Speelgoed</li>
+              </section>
+            </section>
+          </li>
+
+          <li><a href="#contacten">Contact</a></li>
           <li><a href="#over-ons"> Over Ons</a></li>
         </ul>
       </nav>
@@ -34,100 +45,149 @@
 
     <h1>Apparaten</h1>
 
-    <section class="playstation">
-      <img
-        class="playstation_img"
-        src="image/playstation.webp"
-        alt="Playstation"
-      />
-
-      <h2>Playstation 5</h2>
-      <p class="beschrijving">
-        Geheugencapaciteit: <strong>2 TB</strong> Verpakkingsinhoud:
-        <strong>Console</strong>
-      </p>
-      <p><strong>Prijs:</strong> €449</p>
-      <br />
-      <button class="btn" style="" id="customBtn3">
-        ga naar winkelmand<img
-          src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
-          alt="button winkelwagen"
-          id="newIdIcon2"
-          style="width: 25px; margin-left: 3px"
+    <section class="apparaten1">
+      <article class="playstation">
+        <br />
+        <br />
+        <img
+          class="playstation_img"
+          src="image/playstation.webp"
+          alt="Playstation"
         />
-      </button>
-    </section>
 
-    <section class="nintendo">
-      <img
-        class="nintendo_img"
-        src="image/nintendo_light.webp"
-        alt="Nintendo Switch"
-      />
+        <h2>Playstation 5</h2>
+        <p class="beschrijving">
+          <br />
+          Geheugencapaciteit: <strong>2 TB</strong>
+        </p>
+        <p>
+          Verpakkingsinhoud:
+          <strong>Console</strong>
+        </p>
+        <p><strong>Prijs:</strong> €449</p>
+        <br />
+        <button class="btn" style="" id="customBtn3">
+          ga naar winkelmand<img
+            src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
+            alt="button winkelwagen"
+            id="newIdIcon2"
+            style="width: 25px; margin-left: 3px"
+          />
+        </button>
+      </article>
 
-      <h3>Nintendo Switch</h3>
-      <p class="beschrijving">
-        Geheugencapaciteit: <strong>32 GB</strong>
-        Verpakkingsinhoud:
-        <strong>Console / 2 x Joy-Con-Controller</strong>
-      </p>
-      <p><strong>Prijs: </strong>€400</p>
-      <br />
-      <button class="btn" style="" id="customBtn4">
-        ga naar winkelmand<img
-          src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
-          alt="butten winkelwagen"
-          id="newIdIcon3"
-          style="width: 25px; margin-left: 3px"
+      <article class="nintendo">
+        <img
+          class="nintendo_img"
+          src="image/nintendo_light.webp"
+          alt="Nintendo Switch"
         />
-      </button>
-      <br />
-      <br />
-    </section>
 
-    <section>
-      <img class="xbox_img" src="image/xbox.png" alt="Xbox Series X" />
-      <br />
-      <br />
-      <br />
-      <h3>Xbox Series X</h3>
-      <p class="beschrijving">
-        Geheugencapaciteit: <strong>1 TB</strong> Verpakkingsinhoud:
-        <strong>Console / Controller</strong>
-      </p>
-      <p><strong>Prijs: </strong>€499</p>
-      <br />
-      <button class="btn" style="" id="customBtn5">
-        ga naar winkelmand<img
-          src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
-          alt="button winkelwagen"
-          id="newIdIcon4"
-          style="width: 25px; margin-left: 3px"
-        />
-      </button>
-      <br />
-      <br />
+        <h3>Nintendo Switch</h3>
+        <p class="beschrijving">
+          <br />
+          Geheugencapaciteit: <strong>32 GB</strong>
+        </p>
+        <p>
+          Verpakkingsinhoud:
+          <strong>Console</strong>
+        </p>
+        <p><strong>Prijs: </strong>€400</p>
+        <br />
+        <button class="btn" style="" id="customBtn4">
+          ga naar winkelmand<img
+            src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
+            alt="butten winkelwagen"
+            id="newIdIcon3"
+            style="width: 25px; margin-left: 3px"
+          />
+        </button>
+        <br />
+        <br />
+      </article>
     </section>
+    <section class="apparaten1">
+      <article class="xbox">
+        <img class="xbox_img" src="image/xbox.png" alt="Xbox Series X" />
 
-    <section>
-      <img class="pc_img" src="image/pc.webp" alt="High-End Gaming Pc" />
-      <h3>High-End Gaming Pc</h3>
-      <p class="beschrijving">
-        Geheugencapaciteit: <strong>2 TB</strong> veroakkingsinhoud:
-        <strong>gaming-pc</strong>
-      </p>
-      <p id="iphone"><strong>Prijs: </strong>€3.999</p>
-      <br />
-      <button class="btn" style="" id="customBtn6">
-        ga naar winkelmand<img
-          src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
-          alt="button winkelwagen"
-          id="newIdIcon5"
-          style="width: 25px; margin-left: 3px"
-        />
-      </button>
-      <br />
-      <br />
+        <h3>Xbox Series X</h3>
+        <p class="beschrijving">
+          <br />
+          Geheugencapaciteit: <strong>1 TB</strong>
+        </p>
+        <p>Verpakkingsinhoud: <strong>Console / Controller</strong></p>
+
+        <p><strong>Prijs: </strong>€499</p>
+        <br />
+        <button class="btn" style="" id="customBtn5">
+          ga naar winkelmand<img
+            src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
+            alt="button winkelwagen"
+            id="newIdIcon4"
+            style="width: 25px; margin-left: 3px"
+          />
+        </button>
+        <br />
+        <br />
+      </article>
+
+      <article class="pc">
+        <img class="pc_img" src="image/pc.webp" alt="High-End Gaming Pc" />
+        <h3>High-End Gaming Pc</h3>
+        <br />
+        <p class="beschrijving">Geheugencapaciteit: <strong>2 TB</strong></p>
+        <p>
+          veroakkingsinhoud:
+          <strong>gaming-pc</strong>
+        </p>
+        <p id="iphone"><strong>Prijs: </strong>€3.999</p>
+        <br />
+        <button class="btn" style="" id="customBtn6">
+          ga naar winkelmand<img
+            src="https://cdn.icon-icons.com/icons2/1514/PNG/512/commercialshoppingcartsymbol_104940.png"
+            alt="button winkelwagen"
+            id="newIdIcon5"
+            style="width: 25px; margin-left: 3px"
+          />
+        </button>
+        <br />
+        <br />
+      </article>
     </section>
+    <!-- footer -->
+    <footer class="footer">
+      <hr />
+      <hr />
+      <br />
+      <h2 id="contacten">Onze Socials en Contacts</h2>
+      <br />
+      <br />
+      <p>Volg ons op:</p>
+      <br />
+      <section class="socials">
+        <a href="https://instagram.com" target="_blank"
+          ><img src="image/eechte_insta.png" alt="instagram logo" width="100"
+        /></a>
+        <a href="https://tiktok.com" target="_blank"
+          ><img src="image/echte_tiktok.png" alt="TikTok Logo" width="100"
+        /></a>
+      </section>
+      <br />
+      <br />
+      <p>Als u nog vragen heeft, kunt u ons altijd bereiken via email of sms</p>
+      <br />
+      <p><a href="tel:+3211324354" target="_blank">+32 113 243 54</a></p>
+      <p>
+        <a href="mailto:beryllokua@gmail.com" target="_blank"
+          >beryllokua@gmail.com</a
+        >
+      </p>
+      <br />
+      <br />
+      <p>
+        © 2024 ToyJoys. Alle rechten voorbehouden. | Privacybeleid | Algemene
+        voorwaarden
+      </p>
+    </footer>
   </body>
 </html>

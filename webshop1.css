@@ -80,6 +80,7 @@
   .nav ul li:hover {
     background-color: #ff6347;
     color: #fff;
+    opacity: ;
   }
   
 /* Algemene reset */
@@ -119,14 +120,15 @@
 
 .full-dropdown {
   position: fixed;
-  top: 11%;
   opacity: 0;
-  
+  top:11%;
 }
+
 
 .nav-li:hover .full-dropdown {
   opacity: 1;
-}
+  
+}   
 
 .dropdown {
   background-color: rgb(212, 225, 93);
@@ -344,12 +346,21 @@ border-color: rgb(204, 0, 105);
 border-width: 2px;
 border-style: solid;
 }
+
 /*footer*/
 .footer {
-    text-align: center;
-    background-color: rgb(248, 230, 207);
+  margin-top: 15%;
+  text-align: center;
+    background: linear-gradient(90deg, #a8c66c, #556b2f); 
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
 }
-
 .volledige_producten {
   display: flex;
   justify-content: space-between;

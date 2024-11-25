@@ -174,3 +174,131 @@ header input[type="text"] {
  text-decoration: none;
 }
 
+.full-dropdown {
+  position: fixed;
+  opacity: 0;
+  top:11%;
+}
+
+
+.nav-li:hover .full-dropdown {
+  opacity: 1;
+  text-decoration: none;
+  
+}   
+
+.dropdown {
+  background-color: rgb(212, 225, 93);
+  border-radius: 5%;
+}
+
+.playstation_img {
+  width: 300px;
+  margin-bottom: 5%;
+}
+.xbox_img {
+  width: 300px;
+  margin-bottom: 5%;
+}
+
+.nintendo_img {
+  width: 300px;
+  margin-top: 10%;
+}
+
+.pc_img {
+  width: 300px;
+  margin-bottom: 5%;
+}
+
+ .apparaten1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  gap: 20%;
+  
+ }
+
+ .playstation {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 30%;
+  align-items: center;
+  border-radius: 5%;
+ }
+
+ .nintendo {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 30%;
+  align-items: center;
+  border-radius: 5%;
+ }
+
+ .xbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 30%;
+  align-items: center;
+  border-radius: 5%;
+ }
+
+ .pc {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 30%;
+  align-items: center;
+  border-radius: 5%;
+ }
+
+ .btn {
+  cursor: pointer; 
+  border: solid rgb(187, 204, 0); 
+  font-family: Koulen; 
+  font-size: 30px; 
+  color: rgb(255, 255, 255); 
+  padding: 2px 30px; 
+  transition: 2s; 
+  width: 260px; 
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; 
+  border-radius: 50px; 
+  background: linear-gradient(90deg, rgb(0, 204, 167) 0%, rgb(0, 204, 48) 100%); 
+  font-weight: 100; 
+  --hover-width: 288px; 
+  --hover-bgc: #cc0000; 
+  --hover-color: #ffffff;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+.btn:hover{
+  
+color: rgb(255, 255, 255);
+width: 288px;
+background: rgb(204, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+border-color: rgb(204, 0, 105);
+border-width: 2px;
+border-style: solid;
+}
+
+/*footer*/
+.footer {
+  margin-top: 15%;
+  text-align: center;
+  background: linear-gradient(90deg, #a8c66c, #556b2f); 
+  color: #ffffff; 
+  font-weight: bold;
+  }
+  
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
