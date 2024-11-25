@@ -185,7 +185,13 @@ header input[type="text"] {
   opacity: 1;
   text-decoration: none;
   
-}   
+}  
+
+.tittel_apparaten {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
 
 .dropdown {
   background-color: rgb(212, 225, 93);
@@ -218,6 +224,7 @@ header input[type="text"] {
   margin-left: 5%;
   gap: 20%;
   
+  
  }
 
  .playstation {
@@ -227,6 +234,7 @@ header input[type="text"] {
   width: 30%;
   align-items: center;
   border-radius: 5%;
+  box-shadow: 5px 5px 5px gray;
  }
 
  .nintendo {
@@ -236,6 +244,7 @@ header input[type="text"] {
   width: 30%;
   align-items: center;
   border-radius: 5%;
+  box-shadow: 5px 5px 5px gray;
  }
 
  .xbox {
@@ -245,6 +254,7 @@ header input[type="text"] {
   width: 30%;
   align-items: center;
   border-radius: 5%;
+  box-shadow: 5px 5px 5px gray;
  }
 
  .pc {
@@ -254,6 +264,7 @@ header input[type="text"] {
   width: 30%;
   align-items: center;
   border-radius: 5%;
+  box-shadow: 5px 5px 5px gray;
  }
 
  .btn {
