@@ -115,6 +115,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Dropdown menu */
+
+.full-dropdown {
+  position: fixed;
+  top: 11%;
+  opacity: 0;
+  
+}
+
+.nav-li:hover .full-dropdown {
+  opacity: 1;
+}
+
+.dropdown {
+  background-color: rgb(212, 225, 93);
+  border-radius: 5%;
+}
+
+
+
 
 /* Header styling */
 header {
