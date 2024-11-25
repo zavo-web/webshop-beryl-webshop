@@ -328,7 +328,7 @@ header input[type="text"] {
     font-weight: 100; 
     --hover-width: 288px; 
     --hover-bgc: #cc0000; 
-    --hover-color: #ffffff; d
+    --hover-color: #ffffff;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -348,4 +348,10 @@ border-style: solid;
 .footer {
     text-align: center;
     background-color: rgb(248, 230, 207);
+}
+
+.volledige_producten {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
