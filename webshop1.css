@@ -329,3 +329,9 @@ border-style: solid;
     text-align: center;
     background-color: rgb(248, 230, 207);
 }
+
+.volledige_producten {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
