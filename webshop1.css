@@ -308,7 +308,7 @@ header input[type="text"] {
     font-weight: 100; 
     --hover-width: 288px; 
     --hover-bgc: #cc0000; 
-    --hover-color: #ffffff; d
+    --hover-color: #ffffff;
     display: flex; 
     justify-content: center; 
     align-items: center;
