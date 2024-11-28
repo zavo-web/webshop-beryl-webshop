@@ -196,172 +196,59 @@ header input[type="text"] {
  text-decoration: none;
 }
 
-  /* Banner styling */
-  .banner {
+.overOns {
     position: relative;
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     overflow: hidden;
-  }
-  
-  .banner_img {
+}
+
+.achtergrond {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  /* Stijl voor de tekst bovenop de banner */
-  .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 2;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-  }
-  
-  .banner-text h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-  }
-  
-  .banner-text p {
-    font-size: 1.25rem;
-    font-weight: lighter;
-  }
-  
-  /* Stijl voor de button link */
-.button {
-    display: inline-flex;
-    align-items: center;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    cursor: pointer;
-    border: solid rgb(187, 204, 0);
-    font-family: Roboto;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    padding: 6px 30px;
-    transition: 1118ms;
-    width: 143px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
-    background: linear-gradient(90deg, rgb(156, 204, 0) 0%, rgb(58, 204, 0) 100%);
-    font-weight: 100;
-    text-decoration: none; /* Verwijdert onderlijning */
-    
-}
-
-.button:hover {
-    color: rgb(255, 255, 255);
-    width: 194px;
-    background: rgb(181, 255, 9) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-color: rgb(204, 0, 105);
-    border-width: 2px;
-    border-style: solid;
-}
-
-
-  .catagorie {
-    margin-left: 3%;
-  }
-
-  /* afbeelding van de producten */
-
-  .playstation_img {
-    width: 20%;
-  }
-
-  .nintendo_img {
-    width: 20%;
-  }
-  
-  .xbox_img {
-    width: 20%;
-  }
-
-  .pc_img {
-    width: 20%;
-  }
-
-  .iphone_img {
-    width: 20%;
-  }
-
-  .nerf_img {
-    width: 20%;
-  }
-
-  .gravitrax_img {
-    width: 20%;
-  }
-
-  .volledige_producten {
+    position: absolute;
+    left: 23%;
     text-align: center;
-  }
-
-/* beschrijving producten */
-
-  .beschrijving {
-    max-width: 160px;
-    margin: 0 auto;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
- 
-
-/* button van winkelmand */
-
-.btn {
-    cursor: pointer; 
-    border: solid rgb(187, 204, 0); 
-    font-family: Koulen; 
-    font-size: 30px; 
-    color: rgb(255, 255, 255); 
-    padding: 2px 30px; 
-    transition: 2s; 
-    width: 260px; 
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; 
-    border-radius: 50px; 
-    background: linear-gradient(90deg, rgb(0, 204, 167) 0%, rgb(0, 204, 48) 100%); 
-    font-weight: 100; 
-    --hover-width: 288px; 
-    --hover-bgc: #cc0000; 
-    --hover-color: #ffffff;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+    top: 35%;
+    color: #000000; /* Witte kleur voor goede leesbaarheid */
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    max-width: 800px;
+    border-radius: 30px;
 }
 
+.tekst h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 
-.btn:hover{
-    
-color: rgb(255, 255, 255);
-width: 288px;
-background: rgb(204, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-border-color: rgb(204, 0, 105);
-border-width: 2px;
-border-style: solid;
+.tekst p {
+    font-size: 1.2rem;
 }
 
 /*footer*/
-.footer { 
+.footer {
     text-align: center;
-    background: linear-gradient(90deg, #a8c66c, #556b2f); 
-    color: #ffffff; 
-    font-weight: bold;
+      background: linear-gradient(90deg, #a8c66c, #556b2f); 
+      color: #ffffff; 
+      font-weight: bold;
+    }
+    
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
   }
-  
-.socials {
-  display: flex;
-  justify-content: center;
-  gap: 3%;
-}
-.volledige_producten {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
+  .volledige_producten {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }

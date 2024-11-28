@@ -1,0 +1,271 @@
+/* Algemene reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body-stijl */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #111;
+    margin: 0;
+  }
+  
+  /* Header sectie bovenaan vastzetten */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(210, 219, 131); 
+    color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  /* Logo styling */
+  header img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  /* Zoekbalk styling */
+  header input[type="text"] {
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #111;
+    text-align: center;
+  }
+  
+  /* Winkelwagen en account logo */
+  .shop_cart,
+  .account_logo {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* Navigatiebalk styling */
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .nav ul li {
+    margin: 0 15px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect voor nav links */
+  .nav ul li:hover {
+    background-color: #ff6347;
+    color: #fff;
+  }
+  
+/* Algemene reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigatiebalk styling */
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li {
+  margin: 0 15px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.nav ul a {
+    text-decoration: none;
+}
+
+/* Algemene reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(210, 219, 131);
+  color: #111;
+  position: fixed;
+  top: 0;
+  width: 103%;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo styling */
+header img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+/* Zoekbalk styling */
+header input[type="text"] {
+  flex-grow: 1;
+  max-width:  500px;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  color: #111;
+  text-align: center;
+}
+
+/* Navigatiebalk styling */
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li a {
+  margin: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  color: #f9f9f9;
+}
+
+
+
+.nav ul a {
+ text-decoration: none;
+}
+
+
+.full-dropdown {
+  position: fixed;
+  opacity: 0;
+  top:11%;
+}
+
+
+.nav-li:hover .full-dropdown {
+  opacity: 1;
+  text-decoration: none;
+  
+}   
+
+.dropdown {
+  background-color: rgb(212, 225, 93);
+  border-radius: 5%;
+}
+
+/* Algemene stijl voor de inlogpagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 100px; /* Voor ruimte onder de vaste header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container voor de login en registratie sectie */
+  .volledigeForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    gap: 20px;
+  }
+  
+  
+  h4 {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  
+  /* Knoppen */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #90caf9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #42a5f5;
+  }
+  
+ .volledigeForm {
+    gap: 10%;
+ }
+  

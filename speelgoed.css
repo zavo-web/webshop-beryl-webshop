@@ -80,7 +80,6 @@
   .nav ul li:hover {
     background-color: #ff6347;
     color: #fff;
-    
   }
   
 /* Algemene reset */
@@ -116,27 +115,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Dropdown menu */
-
-.full-dropdown {
-  position: fixed;
-  opacity: 0;
-  top:11%;
-}
-
-
-.nav-li:hover .full-dropdown {
-  opacity: 1;
-  
-}   
-
-.dropdown {
-  background-color: rgb(212, 225, 93);
-  border-radius: 5%;
-}
-
-
-
 
 /* Header styling */
 header {
@@ -164,7 +142,7 @@ header img {
 /* Zoekbalk styling */
 header input[type="text"] {
   flex-grow: 1;
-  max-width: 500px;
+  max-width:  500px;
   padding: 10px;
   margin: 0 20px;
   border-radius: 25px;
@@ -196,124 +174,65 @@ header input[type="text"] {
  text-decoration: none;
 }
 
-  /* Banner styling */
-  .banner {
-    position: relative;
-    width: 100%;
-    height: 100vh; 
-    overflow: hidden;
-  }
+.full-dropdown {
+  position: fixed;
+  opacity: 0;
+  top:11%;
+}
+
+
+.nav-li:hover .full-dropdown {
+  opacity: 1;
+  text-decoration: none;
   
-  .banner_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /* Stijl voor de tekst bovenop de banner */
-  .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 2;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-  }
-  
-  .banner-text h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-  }
-  
-  .banner-text p {
-    font-size: 1.25rem;
-    font-weight: lighter;
-  }
-  
-  /* Stijl voor de button link */
-.button {
-    display: inline-flex;
-    align-items: center;
+} 
+
+.dropdown {
+    background-color: rgb(212, 225, 93);
+    border-radius: 5%;
+}
+.tittel_speelgoed {
+    display: flex;
     justify-content: center;
-    cursor: pointer;
-    border: solid rgb(187, 204, 0);
-    font-family: Roboto;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    padding: 6px 30px;
-    transition: 1118ms;
-    width: 143px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 50px;
-    background: linear-gradient(90deg, rgb(156, 204, 0) 0%, rgb(58, 204, 0) 100%);
-    font-weight: 100;
-    text-decoration: none; /* Verwijdert onderlijning */
-    
+    margin-top: 15%;
 }
 
-.button:hover {
-    color: rgb(255, 255, 255);
-    width: 194px;
-    background: rgb(181, 255, 9) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-color: rgb(204, 0, 105);
-    border-width: 2px;
-    border-style: solid;
+.nerf_img {
+    width: 350px;
 }
 
+.gravitrax_img {
+    width: 350px;
+}
+.speelgoed {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 8%;
+}
 
-  .catagorie {
-    margin-left: 3%;
-  }
+.Nerf {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color: #ddd;
+    border-radius: 5%;
+    width: 400px;
+    height: 590px;
+    box-shadow: 5px 5px 5px gray;
+}
 
-  /* afbeelding van de producten */
+.gravitrax {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 5%;
+    width: 400px;
+    height: 590px;
+    box-shadow: 5px 5px 5px gray;
+}
 
-  .playstation_img {
-    width: 20%;
-  }
-
-  .nintendo_img {
-    width: 20%;
-  }
-  
-  .xbox_img {
-    width: 20%;
-  }
-
-  .pc_img {
-    width: 20%;
-  }
-
-  .iphone_img {
-    width: 20%;
-  }
-
-  .nerf_img {
-    width: 20%;
-  }
-
-  .gravitrax_img {
-    width: 20%;
-  }
-
-  .volledige_producten {
-    text-align: center;
-  }
-
-/* beschrijving producten */
-
-  .beschrijving {
-    max-width: 160px;
-    margin: 0 auto;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
- 
-
-/* button van winkelmand */
 
 .btn {
     cursor: pointer; 
@@ -334,34 +253,30 @@ header input[type="text"] {
     display: flex; 
     justify-content: center; 
     align-items: center;
-}
-
-
-.btn:hover{
+  }
+  
+  
+  .btn:hover{
     
-color: rgb(255, 255, 255);
-width: 288px;
-background: rgb(204, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-border-color: rgb(204, 0, 105);
-border-width: 2px;
-border-style: solid;
-}
+  color: rgb(255, 255, 255);
+  width: 288px;
+  background: rgb(204, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+  border-color: rgb(204, 0, 105);
+  border-width: 2px;
+  border-style: solid;
+  }
 
 /*footer*/
-.footer { 
+.footer {
+    margin-top: 15%;
     text-align: center;
     background: linear-gradient(90deg, #a8c66c, #556b2f); 
     color: #ffffff; 
     font-weight: bold;
   }
-  
-.socials {
-  display: flex;
-  justify-content: center;
-  gap: 3%;
-}
-.volledige_producten {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
+    
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
