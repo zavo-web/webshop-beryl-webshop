@@ -1,0 +1,286 @@
+/* Algemene reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body-stijl */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #111;
+    margin: 0;
+  }
+  
+  /* Header sectie bovenaan vastzetten */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(210, 219, 131); 
+    color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  /* Logo styling */
+  header img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  /* Zoekbalk styling */
+  header input[type="text"] {
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #111;
+    text-align: center;
+  }
+  
+  /* Winkelwagen en account logo */
+  .shop_cart,
+  .account_logo {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* Navigatiebalk styling */
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .nav ul li {
+    margin: 0 15px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect voor nav links */
+  .nav ul li:hover {
+    background-color: #ff6347;
+    color: #fff;
+  }
+  
+/* Algemene reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigatiebalk styling */
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li {
+  margin: 0 15px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.nav ul a {
+    text-decoration: none;
+}
+
+/* Algemene reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(210, 219, 131);
+  color: #111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo styling */
+header img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+/* Zoekbalk styling */
+header input[type="text"] {
+  flex-grow: 1;
+  max-width:  500px;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  color: #111;
+  text-align: center;
+}
+
+/* Navigatiebalk styling */
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li a {
+  margin: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  color: #f9f9f9;
+}
+
+
+
+.nav ul a {
+ text-decoration: none;
+}
+
+.full-dropdown {
+  position: fixed;
+  opacity: 0;
+  top:11%;
+}
+
+
+.nav-li:hover .full-dropdown {
+  opacity: 1;
+  
+}   
+
+.tittel_iphone {
+    display: flex;
+   justify-content: center;
+    margin-top: 15%;
+
+}
+
+.dropdown {
+  background-color: rgb(212, 225, 93);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.iphone_img {
+    width: 510px;
+    margin-bottom: 10%;
+}
+.iphone_pro {
+    width: 235px;
+    margin-bottom: 13%;
+    margin-top: 9%;
+}
+.Iphones {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+ 
+    gap: 10%;
+}
+
+.iphone16 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    width: 400px;
+    border-radius: 5%;
+    height: 650px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.iphone15 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    height: 650px;
+    width: 400px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.btn {
+    cursor: pointer; 
+    border: solid rgb(187, 204, 0); 
+    font-family: Koulen; 
+    font-size: 30px; 
+    color: rgb(255, 255, 255); 
+    padding: 2px 30px; 
+    transition: 2s; 
+    width: 260px; 
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; 
+    border-radius: 50px; 
+    background: linear-gradient(90deg, rgb(0, 204, 167) 0%, rgb(0, 204, 48) 100%); 
+    font-weight: 100; 
+    --hover-width: 288px; 
+    --hover-bgc: #cc0000; 
+    --hover-color: #ffffff;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  
+  .btn:hover{
+    
+  color: rgb(255, 255, 255);
+  width: 288px;
+  background: rgb(204, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+  border-color: rgb(204, 0, 105);
+  border-width: 2px;
+  border-style: solid;
+  }
+
+  /*footer*/
+.footer {
+    margin-top: 15%;
+    text-align: center;
+    background: linear-gradient(90deg, #a8c66c, #556b2f); 
+    color: #ffffff; 
+    font-weight: bold;
+    }
+    
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
