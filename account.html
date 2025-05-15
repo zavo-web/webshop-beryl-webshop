@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <title>Inloggen | ToyJoys</title>
+    <link rel="stylesheet" href="css/account.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="image/verbeterdiee_logo_webshop.png"
+    />
+  </head>
+  <body>
+    <!-- Navigatie -->
+    <header>
+      <a href="index.html">
+        <img
+          class="img_logo"
+          src="image/png_logo.png"
+          alt="Logo voor navigatie"
+        />
+      </a>
+      <input type="text" placeholder="Waar ben je naar op zoek?" />
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="nav-li">
+            <a href="#">Producten</a>
+            <section class="full-dropdown">
+              <ul class="dropdown">
+                <li><a href="apparaten.html">Apparaten</a></li>
+                <li><a href="iphones.html">Iphones</a></li>
+                <li><a href="speelgoed.html">Speelgoed</a></li>
+              </ul>
+            </section>
+          </li>
+          <li><a href="#contacten">Contact</a></li>
+          <li><a href="over_ons.html">Over ons</a></li>
+        </ul>
+      </nav>
+      <img
+        class="shop_cart"
+        src="image/shopping-cart.png"
+        alt="Winkelwagen logo"
+      />
+      <a href="account.html"
+        ><img class="account_logo" src="image/account.png" alt="Account logo" />
+      </a>
+    </header>
+
+    <!-- Inloggen en Aanmelden -->
+    <form>
+      <div class="volledigeForm">
+        <!-- Login  -->
+        <section>
+          <h4>Inloggen</h4>
+          <label for="username">Gebruikersnaam</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Wachtwoord</label>
+          <input type="password" id="password" name="password" required />
+          <button type="submit">Inloggen</button>
+        </section>
+        <hr />
+        <!-- Registreren gedeelte -->
+        <section>
+          <h4>Aanmelden</h4>
+          <label for="fullname">Volledige Naam</label>
+          <input type="text" id="fullname" name="fullname" required />
+
+          <label for="email">E-mailadres</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="newpassword">Kies een wachtwoord</label>
+          <input type="password" id="newpassword" name="newpassword" required />
+
+          <button type="submit">Aanmelden</button>
+        </section>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+/* Algemene reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body-stijl */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #111;
+    margin: 0;
+  }
+  
+  /* Header sectie bovenaan vastzetten */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(210, 219, 131); 
+    color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  /* Logo styling */
+  header img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  /* Zoekbalk styling */
+  header input[type="text"] {
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #111;
+    text-align: center;
+  }
+  
+  /* Winkelwagen en account logo */
+  .shop_cart,
+  .account_logo {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* Navigatiebalk styling */
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .nav ul li {
+    margin: 0 15px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect voor nav links */
+  .nav ul li:hover {
+    background-color: #ff6347;
+    color: #fff;
+    
+  }
+  
+/* Algemene reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigatiebalk styling */
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li {
+  margin: 0 15px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.nav ul a {
+    text-decoration: none;
+}
+
+/* Algemene reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Dropdown menu */
+
+.full-dropdown {
+  position: fixed;
+  opacity: 0;
+  top:11%;
+}
+
+
+.nav-li:hover .full-dropdown {
+  opacity: 1;
+  
+}   
+
+.dropdown {
+  background-color: rgb(212, 225, 93);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(210, 219, 131);
+  color: #111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo styling */
+header img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+/* Zoekbalk styling */
+header input[type="text"] {
+  flex-grow: 1;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  color: #111;
+  text-align: center;
+}
+
+/* Navigatiebalk styling */
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav ul li a {
+  margin: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  color: #f9f9f9;
+}
+
+
+
+.nav ul a {
+ text-decoration: none;
+}
+
+.overOns {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.achtergrond {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+  .tekst {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      left: 23%;
+      text-align: center;
+      top: 35%;
+      color: #000000; /* Witte kleur voor goede leesbaarheid */
+      font-weight: bold;
+      padding: 20px;
+      background-color: rgb(255, 255, 255);
+      max-width: 800px;
+      border-radius: 30px;
+  }
+
+.tekst h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tekst p {
+    font-size: 1.2rem;
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+      background: linear-gradient(90deg, #a8c66c, #556b2f); 
+      color: #ffffff; 
+      font-weight: bold;
+    }
+    
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
+  .volledige_producten {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
