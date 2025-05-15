@@ -211,21 +211,21 @@ header input[type="text"] {
     object-fit: cover;
 }
 
-.tekst {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    left: 23%;
-    text-align: center;
-    top: 35%;
-    color: #000000; /* Witte kleur voor goede leesbaarheid */
-    font-weight: bold;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    max-width: 800px;
-    border-radius: 30px;
-}
+  .tekst {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      left: 23%;
+      text-align: center;
+      top: 35%;
+      color: #000000; /* Witte kleur voor goede leesbaarheid */
+      font-weight: bold;
+      padding: 20px;
+      background-color: rgb(255, 255, 255);
+      max-width: 800px;
+      border-radius: 30px;
+  }
 
 .tekst h1 {
     font-size: 2.5rem;
